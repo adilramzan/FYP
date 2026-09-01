@@ -8,7 +8,7 @@ import * as Speech from "expo-speech";
 import i18n from "../services/i18n";
 import { Alert } from "react-native";
 
-const CLOUD_API_KEY = "AIzaSyDsOTL8sOstP8Y2oqAK4dBlqCrPwVb2fvc";
+const CLOUD_API_KEY = "";
 
 export default function useVoiceCommand() {
   
