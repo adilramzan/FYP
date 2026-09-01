@@ -1242,7 +1242,7 @@ export default function HomeScreen() {
   const lottieRef = useRef(null);
   const recordingTimeoutRef = useRef(null);
 
-  const CLOUD_API_KEY = 'AIzaSyDsOTL8sOstP8Y2oqAK4dBlqCrPwVb2fvc'; // Replace with your API key
+  const CLOUD_API_KEY = ''; // Replace with your API key
 
 
   const getMicrophonePermission = async () => {
