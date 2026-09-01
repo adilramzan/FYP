@@ -26,7 +26,7 @@
 
 //   const pulseAnim = useRef(new Animated.Value(1)).current;
 
-//   const CLOUD_API_KEY = 'AIzaSyDsOTL8sOstP8Y2oqAK4dBlqCrPwVb2fvc'; // Replace with your API key
+//   const CLOUD_API_KEY = ''; // Replace with your API key
 
 //   useEffect(() => {
 //     Animated.loop(
@@ -348,7 +348,7 @@ export default function CreateProfileStep2({ navigation, route }) {
 
   const { language } = route.params || {}; // Data from the previous page
   const pulseAnim = useRef(new Animated.Value(1)).current;
-  const CLOUD_API_KEY = 'AIzaSyDsOTL8sOstP8Y2oqAK4dBlqCrPwVb2fvc'; // Replace with your API key
+  const CLOUD_API_KEY = ''; // Replace with your API key
 
 
   useEffect(() => {
