@@ -33,7 +33,7 @@ export default function CreateProfileStep3({ navigation,route }) {
 
   const pulseAnim = useRef(new Animated.Value(1)).current;
 
-  const CLOUD_API_KEY = 'AIzaSyDsOTL8sOstP8Y2oqAK4dBlqCrPwVb2fvc'; // Replace with your API key
+  const CLOUD_API_KEY = ''; // Replace with your API key
 
   useEffect(() => {
     Animated.loop(
